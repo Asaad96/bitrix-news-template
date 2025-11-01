@@ -1,0 +1,33 @@
+# Bitrix Core - DO NOT UPLOAD!
+/bitrix/
+/upload/
+/bitrix_personal/
+
+# Cache & Temp
+bitrix/cache/
+bitrix/managed_cache/
+bitrix/html_pages/
+bitrix/backup/
+bitrix/tmp/
+
+# Local templates cache
+/local/templates/.default/bitrix/
+
+# Environment & Configs
+.env
+.env.local
+*.config.php
+*config.php
+/bitrix/php_interface/dbconn.php
+
+# Logs
+*.log
+bitrix/modules/*/log/
+
+# Database
+*.sql
+*.db
+
+# System
+.DS_Store
+Thumbs.db
